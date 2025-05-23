@@ -75,5 +75,5 @@ Feel free to connect on [LinkedIn](www.linkedin.com/in/contactmanaschoudhary) or
 ## ⭐ Star This Repository
 If you like this project, give it a ⭐ to help others find it!
 
-
-
+## App Link
+[Credit Risk Predictor App](https://creditriskradar.streamlit.app/)
