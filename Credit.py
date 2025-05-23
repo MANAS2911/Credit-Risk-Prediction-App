@@ -29,7 +29,7 @@ class DataLoader:
         self.filepath = filepath
 
     def load_data(self):
-        df = pd.read_csv(self.filepath)
+        df = pd.read_csv("german_credit_data.csv")
         df['Risk'] = np.where((df['Credit amount'] > 5000) & (df['Duration'] > 24), 'bad', 'good')
         return df
 
