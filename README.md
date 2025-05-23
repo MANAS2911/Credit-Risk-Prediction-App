@@ -66,8 +66,8 @@ All dependencies are listed in requirements.txt. Key libraries include:
 - pandas, numpy, matplotlib
 
 ## 🙋‍♂️ Author
-Manas
-Final Year Computer Engineering Student
+Manas Choudhary,
+Final Year Computer Engineering Student,
 Project: Credit Risk Prediction System
 
 Feel free to connect on [LinkedIn](www.linkedin.com/in/contactmanaschoudhary) or raise an issue or PR.
