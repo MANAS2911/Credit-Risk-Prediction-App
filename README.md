@@ -35,28 +35,28 @@ Credit-Risk-Prediction-App/
 git clone https://github.com/your-username/Credit-Risk-Prediction-App.git
 cd Credit-Risk-Prediction-App
 
-3. **Create a virtual environment (optional but recommended)**
+2. **Create a virtual environment (optional but recommended)**
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-5. **Install dependencies**
+3. **Install dependencies**
 pip install -r requirements.txt
 
 ## Running the App
 streamlit run Credit.py
 
-📊 Model Details
+## 📊 Model Details
 Three models are trained using GridSearchCV with SMOTE and custom feature engineering:
 - Random Forest
 - XGBoost
 - Logistic Regression
 Each model is evaluated using F1-Score and ROC AUC. The best performing models are saved as .pkl files.
 
-🧠 Model Explainability
+## 🧠 Model Explainability
 - SHAP (SHapley Additive exPlanations) is used to visualize feature impact.
 - Users can click "Show SHAP Summary" to view a plot explaining feature importance.
 
-📌 Requirements
+## 📌 Requirements
 All dependencies are listed in requirements.txt. Key libraries include:
 - streamlit
 - scikit-learn
@@ -65,14 +65,14 @@ All dependencies are listed in requirements.txt. Key libraries include:
 - imbalanced-learn
 - pandas, numpy, matplotlib
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 Manas
 Final Year Computer Engineering Student
 Project: Credit Risk Prediction System
 
 Feel free to connect on [LinkedIn](www.linkedin.com/in/contactmanaschoudhary) or raise an issue or PR.
 
-⭐ Star This Repository
+## ⭐ Star This Repository
 If you like this project, give it a ⭐ to help others find it!
 
 
