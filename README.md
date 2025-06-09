@@ -46,6 +46,7 @@ pip install -r requirements.txt
 streamlit run Credit.py
 
 ## 📊 Model Details
+
 Three models are trained using GridSearchCV with SMOTE and custom feature engineering:
 - Random Forest
 - XGBoost
@@ -53,10 +54,12 @@ Three models are trained using GridSearchCV with SMOTE and custom feature engine
 Each model is evaluated using F1-Score and ROC AUC. The best performing models are saved as .pkl files.
 
 ## 🧠 Model Explainability
+
 - SHAP (SHapley Additive exPlanations) is used to visualize feature impact.
 - Users can click "Show SHAP Summary" to view a plot explaining feature importance.
 
 ## 📌 Requirements
+
 All dependencies are listed in requirements.txt. Key libraries include:
 - streamlit
 - scikit-learn
@@ -66,6 +69,7 @@ All dependencies are listed in requirements.txt. Key libraries include:
 - pandas, numpy, matplotlib
 
 ## 🙋‍♂️ Author
+
 Manas Choudhary,
 Final Year Computer Engineering Student,
 Project: Credit Risk Prediction System
