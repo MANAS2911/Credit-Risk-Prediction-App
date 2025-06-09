@@ -19,11 +19,11 @@ A machine learning-powered web application built with **Streamlit** that predict
 ## 📁 Project Structure
 
 Credit-Risk-Prediction-App
-- Credit.py # Main Streamlit app
-- feature_engineer.py # Feature engineering logic as custom transformer
-- german_credit_data.csv # Dataset
-- requirements.txt # Dependencies
-- README.md # Project documentation
+- Credit.py (Main Streamlit app)
+- feature_engineer.py (Feature engineering logic as custom transformer)
+- german_credit_data.csv (Dataset)
+- requirements.txt (Dependencies)
+- README.md (Project documentation)
 
 ---
 
